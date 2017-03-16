@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3b5998"
+    tools:context="jasoliya1.ravin.smsbroadcast.MainActivity">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/fblogo"/>
+
+
+    <EditText
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="fill_parent"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+        android:hint="Email or Phone"
+        />
+    <EditText
+        android:textColor="#ffffff"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="fill_parent"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/txtpass"
+        android:hint="Password"
+        />
+    <Button
+        android:layout_marginTop="14dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#a2aeca"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Log IN"
+        android:id="@+id/btnlogin"
+        android:background="#4e69a2"
+        />
+
+
+        <TextView
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="140dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up for Facebook"/>
+        <TextView
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need Help?"/>
+    </LinearLayout>
+
